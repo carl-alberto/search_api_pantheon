@@ -13,8 +13,8 @@ composer require drupal/search_api_page:1.x-dev
 
 # These two lines are necessary only to force dev installs,
 # otherwise the latest releases would be used.
-composer require drupal/search_api_solr:1.x-dev --prefer-dist
-composer require drupal/search_api:1.x-dev --prefer-dist
+composer require drupal/search_api_solr:8.x-1.x#43156067c6198621012bd60914906e1dbc37f6f6 --prefer-dist
+composer require drupal/search_api:8.x-1.x#f9e7a4ed96b89989e7e061341bccc65bad7d63b9 --prefer-dist
 
 # Make sure submodules are not committed.
 rm -rf modules/search_api_solr/.git/
